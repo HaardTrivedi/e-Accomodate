@@ -1,0 +1,49 @@
+.propertyContainer {
+        margin: 15px 0;
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        grid-template-rows: 1fr;
+}
+
+.list {
+        margin: 15px;
+}
+
+.list-button {
+        display: flex;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 8px;
+        font-size: 16px;
+        border-radius: 1px;
+        color: green;
+        width: 9%;
+        transition: box-shadow 0.2s ease, -ms-transform 0.1s ease,
+                -webkit-transform 0.1s ease, transform 0.1s ease;
+}
+
+.list-button:hover {
+        text-decoration: underline;
+}
+
+.list-button:active {
+        transform: scale(0.9);
+}
+
+.list-header {
+        text-align: left !important;
+        font-family: Arial;
+}
+
+.property-filter {
+        width: 200px;
+        margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+        .propertyContainer {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+}

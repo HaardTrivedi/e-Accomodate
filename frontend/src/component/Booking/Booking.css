@@ -1,0 +1,44 @@
+.bookingContainer {
+        padding: 16px 24px;
+        margin: 0px !important;
+        border: 1px solid #e4e4e4 !important;
+        background-color: #ffffff !important;
+}
+
+.bookingContainer .lineMargin {
+        margin: 14px 0;
+}
+
+.price {
+        display: flex;
+        margin-bottom: 0.5em;
+}
+
+.price-night {
+        margin-left: 0.2em;
+        border-top: 4px solid rgba(0, 0, 0, 0);
+}
+
+.bookingPrice {
+        display: flex;
+}
+
+.deduct {
+        margin: 5px 0;
+}
+
+.stat {
+        display: flex;
+}
+
+.price-total {
+        margin-left: auto;
+}
+
+.lbl {
+        margin-bottom: 0.5em;
+}
+
+.booking-reviews .rating {
+        margin-left: 2px;
+}

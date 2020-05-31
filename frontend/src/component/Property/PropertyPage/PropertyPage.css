@@ -1,0 +1,71 @@
+.propertyPage {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 50px;
+        width: auto !important;
+        padding-right: 24px !important;
+        padding-left: 24px !important;
+        display: flex;
+}
+
+.propertyContent {
+        position: relative !important;
+        padding-top: 24px;
+}
+
+.name-location {
+        display: flex;
+        margin-top: 0.5em;
+}
+
+.roomContainer {
+        display: flex;
+        margin-top: 3px;
+}
+
+.dot {
+        margin: -4px 4px;
+}
+
+.rcl .lineMargin {
+        margin-top: 16px;
+}
+
+.bookingDiv {
+        position: relative;
+        min-height: 1px;
+}
+
+.location {
+        text-decoration: underline;
+        color: green;
+}
+
+.innerBooking {
+        margin-left: 45px !important;
+        width: 376px !important;
+        z-index: 3 !important;
+}
+
+.avaialble-tile {
+        margin-bottom: 5px;
+        color: darkgreen;
+}
+
+@media (min-width: 1128px) {
+        .propertyPage {
+                max-width: 1080px !important;
+        }
+
+        .propertyContent {
+                width: 60% !important;
+                padding-right: 8px !important;
+        }
+
+        .bookingDiv {
+                padding-left: 8px;
+        }
+        .innerBooking {
+                position: fixed;
+        }
+}

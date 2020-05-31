@@ -1,0 +1,35 @@
+.ratingComponent {
+        display: flex;
+        margin: 5px 0;
+}
+
+.review-header {
+        width: 150px;
+}
+
+.writeComment {
+        padding: 5px;
+        font-size: 1.1em;
+        min-height: 15vh;
+        width: 100%;
+        resize: none;
+        outline: none;
+        border: 2px;
+        border-style: solid;
+        border-radius: 1px;
+        border-color: black;
+        margin: 5px 0;
+}
+
+.set-rating-contianer {
+        margin: 5px 0;
+}
+
+.reviewSubmitContainer {
+        display: flex;
+}
+.reviewSubmitContainer .submitButton {
+        width: 160px;
+        letter-spacing: 2px;
+        margin-right: auto !important;
+}

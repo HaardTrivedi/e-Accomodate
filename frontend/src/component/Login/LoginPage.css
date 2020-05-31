@@ -1,0 +1,74 @@
+.login-background {
+	position: absolute !important;
+	background: hsla(89, 43%, 51%, 0.3);
+	top: 0px !important;
+	left: 0px !important;
+	background-position: 50% 50% !important;
+	background-repeat: no-repeat !important;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 100%;
+	width: 100%;
+	min-height: 1px;
+	z-index: -1;
+}
+
+/*.login-img {
+	object-fit: cover;
+	vertical-align: bottom;
+	height: 100% !important;
+	width: 100% !important;
+	position: static !important;
+}*/
+
+.login-box {
+	margin-top: 100px;
+	margin-left: 35%;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0% !important;
+	border-radius: 4px !important;
+	padding: 20px 30px 30px 30px;
+	width: 450px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px !important;
+}
+
+.login-title {
+	white-space: pre-wrap;
+	font-weight: 400;
+	font-family: Arial;
+	font-size: 29px;
+	letter-spacing: 1px;
+	text-transform: none;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.login-input {
+	padding: 10px 0px !important;
+	padding-left: 10px !important;
+	border: 1px solid #ccc !important;
+	border-radius: 4px !important;
+	width: 100%;
+	font-size: 16px;
+	outline-style: none;
+	margin: 5px 0;
+}
+
+.login-input:focus {
+	outline: 0;
+	border-color: #aac4c1 !important;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+		0 0 8px rgba(173, 199, 196, 0.1) !important;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+		0 0 8px rgba(173, 199, 196) !important;
+}
+
+.login-register-hint {
+	text-align: right;
+	color: #695757;
+	display: inline-block;
+	margin: 0px 10px 10px 10px;
+}
+
+.login-register-hint:hover {
+	color: rgb(76, 172, 165);
+}

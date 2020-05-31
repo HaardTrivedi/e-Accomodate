@@ -1,0 +1,49 @@
+.agreement-tag{
+    text-align: left;
+}
+
+.agreement-text{
+    padding-left: 12px;
+}
+
+.agreement-sign{
+    font-weight: bold;
+}
+
+.approve-btn{
+    width: 49%;
+    margin-top: 15px;
+}
+
+.approve-btn:hover{
+    background: green !important;
+    color: white;
+}
+
+.disapprove-btn{
+    float: right;
+    background: brown;
+    width: 49%;
+    margin-top: 15px;
+}
+
+.disapprove-btn:hover {
+    background: red !important;
+}
+
+.payment-btn{
+    width: 49%;
+    height: 37px;
+    padding-top: 5px;
+    float: inline-end;
+}
+
+.payment-btn:hover{
+    background: green;
+    color: white;
+}
+
+.select-payment-type{
+    width: 50%;
+    float: inline-start;
+}

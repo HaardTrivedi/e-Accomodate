@@ -1,0 +1,16 @@
+.register-page {
+        background: hsla(89, 43%, 51%, 0.3);
+}
+.register-box {
+        width: fit-content;
+        margin: 4vh auto 0;
+        margin-top: 0;
+}
+.login-background {
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+}

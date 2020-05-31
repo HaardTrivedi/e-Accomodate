@@ -1,0 +1,16 @@
+.reviewHeader {
+        margin-bottom: 12px;
+}
+
+.reviewHeader .lineMargin {
+        margin-top: 16px;
+}
+
+.rhc {
+        padding-top: 15px;
+}
+
+.big-rating {
+        margin-top: -3px;
+        padding: 0 5px;
+}

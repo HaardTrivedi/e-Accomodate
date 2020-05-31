@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+.main {
+        padding: 0 12%;
+        font-family: 'Arial';
+}
+
+li {
+        list-style: none;
+}
+
+a {
+        color: inherit;
+        text-decoration: inherit;
+}
+
+.lineMargin {
+        margin: 18px 0;
+        display: block !important;
+}
+
+.lml {
+        border-bottom-style: solid !important;
+        border-bottom-width: var(--border-rule-border-width, 1px) !important;
+        border-bottom-color: var(--color-divider, #ebebeb) !important;
+}
+
+.reviewRating {
+        display: flex;
+}
+
+.rating {
+        margin-top: 1px;
+        margin-left: 5px;
+}
+
+button {
+        border-image: initial;
+}
+
+button:active {
+        outline: none;
+        border: none;
+}
+
+button:focus {
+        outline: 0;
+}
+
+.submitButton {
+        width: 100%;
+        font-size: var(--font-button-font-size, 16px) !important;
+        line-height: var(--font-button-line-height, 24px) !important;
+        letter-spacing: var(--font-button-letter-spacing, normal);
+        font-family: Arial !important;
+        text-transform: var(--font-button-text-transform, undefined) !important;
+        padding-top: var(--spacing-button-vertical, 10px);
+        padding-bottom: var(--spacing-button-vertical, 10px);
+        font-weight: var(--font-bold-font-weight, 800);
+        padding-left: var(--spacing-button-horizontal, 22px);
+        padding-right: var(--spacing-button-horizontal, 22px);
+        box-shadow: var(--shadow-button-level0-box-shadow, none);
+        transition-property: background, border-color, color;
+        transition-duration: 0.2s !important;
+        transition-timing-function: ease-out !important;
+        color: #ffffff !important;
+        cursor: pointer !important;
+        margin: 0px;
+        text-decoration: none !important;
+        border-radius: 4px;
+        border-width: 2px;
+        border-style: solid;
+        background: rgb(66, 115, 112);
+        border-color: transparent;
+        text-align: center;
+}
+
+.submitButton:hover {
+        background: rgb(76, 172, 165) !important;
+}
+
+.submitButton:active {
+        background: rgb(66, 115, 112);
+}
+
+.error-message {
+        padding: 5px;
+        margin: 10px 20%;
+        border-radius: 4px;
+        text-align: center;
+        vertical-align: center;
+        color: #ffffff;
+        background-color: #ef3e4a;
+}
+
+.succ-message {
+        padding: 7px;
+        margin: 10px 20%;
+        border-radius: 4px;
+        text-align: center;
+        vertical-align: center;
+        color: #ffffff;
+        background-color: #32b67a;
+}
+
+@media screen and (max-width: 1024px) {
+        .main {
+                padding: 0 5%;
+        }
+}

@@ -1,0 +1,142 @@
+header {
+	z-index: 10000;
+	position: sticky;
+	top: 0;
+	background-color: #4CAF50;
+}
+
+nav {
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #cacaca;
+}
+
+.nav-items {
+	display: table-cell;
+	cursor: pointer;
+	position: sticky;
+	vertical-align: middle !important;
+}
+
+.logo img {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.padding {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle !important;
+	height: 100%;
+	text-align: center;
+}
+
+.nav-links .nav-menu {
+	height: 84px;
+	display: table;
+}
+
+.nav-menu li {
+	display: table-cell;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.nav-links .nav-menu > li:hover {
+	border-bottom: 2px solid #767676;
+}
+
+.nav-padding {
+	padding: 20px 15px;
+}
+
+.profile {
+	background-color: rgb(242, 242, 242);
+	box-shadow: rgb(235, 235, 235) 0px 0px 0px 2px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 8px;
+}
+
+.profile img {
+	width: 36px;
+	height: 36px;
+}
+
+.profile-container {
+	position: absolute !important;
+	top: 100% !important;
+	right: 0px !important;
+	padding-top: 24px !important;
+	margin-top: -24px !important;
+	margin-right: 8px;
+	width: 950px !important;
+	z-index: -1 !important;
+}
+
+._1yvjit1 {
+	position: absolute !important;
+	width: 100% !important;
+	right: 0px !important;
+}
+
+.profile-menu {
+	background-color: rgb(255, 255, 255);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+	min-width: 282px;
+	max-width: 950px;
+	min-height: 60px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border-width: 1px 1px 1px;
+	border-style: none solid solid;
+	border-color: rgb(235, 235, 235) rgb(235, 235, 235) rgb(235, 235, 235);
+	border-image: initial;
+	border-top: none;
+}
+
+.profile-menu ul li {
+	display: block;
+	padding: 0;
+}
+
+.profile-menu ul li:active {
+	background-color: rgb(235, 235, 235);
+}
+
+.profile-item {
+	margin: 0 16px;
+	border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.profile-item:hover {
+	border-bottom: 1px solid #767676;
+}
+
+.profile-item div {
+	padding: 15px 0;
+}
+
+.search-bar{
+	display: table-cell;
+	width: 67%;
+	border: 1px solid #ccc !important;
+	border-radius: 4px !important;
+	font-size: 24px;
+	outline-style: none;
+	vertical-align: middle !important;
+}
+
+.search-btn{
+	width: 8%;
+	border: 1px solid #ccc !important;
+	border-radius: 4px !important;
+	font-size: 24px;
+	outline-style: none;
+	vertical-align: middle !important;
+}

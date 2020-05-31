@@ -1,0 +1,132 @@
+.profileContainer {
+        margin: 0 auto;
+        width: auto;
+        padding: 0 24px;
+        padding-top: 32px;
+        margin-bottom: 48px;
+        display: flex;
+        align-items: flex-start;
+}
+
+.profileImg {
+        text-align: center;
+}
+
+.profileContainer .profile {
+        width: 120px;
+        height: 120px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+}
+
+.profileContainer .profile img {
+        background-color: #d8d8d8;
+        border-radius: 50%;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #ffffff;
+        overflow: hidden;
+        display: block;
+        height: 120px;
+        width: 120px;
+}
+
+.profileContent {
+        padding-left: 8px;
+        padding-right: 8px;
+        min-height: 1px;
+}
+
+.headerContent {
+        margin-bottom: 16px;
+}
+
+.profileLinkList ul {
+        display: flex;
+        text-align: center;
+}
+
+.profileMain .propertyContainer {
+        grid-template-columns: 1fr !important;
+}
+
+.sideContent input {
+        font-size: 1em;
+        padding: 3px;
+        margin: 1px 0;
+        outline: 1px solid rgb(147, 155, 204);
+        width: 100% !important;
+        border-image: initial !important;
+        border: none;
+}
+
+.sideContent input:focus {
+        outline: 0 !important;
+}
+
+.profileInput {
+        outline: 0 none !important;
+        border: none !important;
+}
+
+.profileInput:focus {
+        outline: 0 !important;
+}
+
+.edit-container {
+        display: flex;
+        margin-top: 25px;
+}
+.editButton {
+        margin-right: auto;
+        cursor: pointer;
+}
+
+.editButton:hover {
+        color: green;
+        text-decoration: underline;
+}
+
+.submit-container {
+        margin: 5px 20%;
+}
+
+.submit-container .submitButton {
+        padding: 0 5px;
+        border-radius: 500px;
+        letter-spacing: 2px;
+}
+
+@media (min-width: 1128px) {
+        .profileContainer {
+                max-width: 95%;
+        }
+
+        .profileSide {
+                width: 20%;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(228, 228, 228);
+                border-image: initial;
+                border-radius: 1px;
+                padding: 24px;
+                margin-right: 10px;
+        }
+
+        .profileContent {
+                width: 75%;
+                margin-left: 50px;
+        }
+}
+
+@media (min-width: 744px) {
+        .profileConainter {
+                max-width: 696px;
+                padding-top: 40px;
+        }
+
+        .profileMain .profileContainer {
+                grid-template-columns: 1fr;
+        }
+}

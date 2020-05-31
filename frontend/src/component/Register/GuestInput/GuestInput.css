@@ -1,0 +1,23 @@
+.register-fn {
+        width: 33%;
+        float: left;
+}
+
+.register-mn {
+        width: 34%;
+        float: left;
+}
+
+.register-ln {
+        width: 33%;
+        float: right;
+}
+
+.register-password {
+        width: 50%;
+        float: left;
+}
+
+.opt-prop {
+        margin-bottom: 50px;
+}

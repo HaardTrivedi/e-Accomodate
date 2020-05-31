@@ -1,0 +1,25 @@
+.property {
+        cursor: pointer;
+        text-align: left !important;
+        word-wrap: break-word;
+        word-break: break-all;
+        max-width: 100%;
+        background-color: rgb(210, 255, 221);
+        border-radius: 5px;
+        padding: 7px;
+        border-color: black;
+        box-shadow: black 2px 4px;
+        transition: all 0.2s ease-in-out;
+}
+
+.property:hover {
+        transform: scale(1.05);
+}
+
+.review-num {
+        display: inline-block;
+}
+
+.no-margin {
+        margin-top: 2px !important;
+}

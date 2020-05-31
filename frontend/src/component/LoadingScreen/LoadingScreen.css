@@ -1,0 +1,42 @@
+.loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 6;
+        border: 5px solid #f3f3f3; /* Light grey */
+        border-top: 5px solid #32b67a; /* Blue */
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        animation: spin 2s linear infinite;
+}
+
+.darken {
+        content: '';
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 5;
+        background-color: #c0c2ce65;
+}
+
+@-webkit-keyframes spin {
+        from {
+                -webkit-transform: rotate(0deg);
+        }
+        to {
+                -webkit-transform: rotate(360deg);
+        }
+}
+
+@keyframes spin {
+        from {
+                transform: rotate(0deg);
+        }
+        to {
+                transform: rotate(360deg);
+        }
+}
