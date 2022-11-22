@@ -15,7 +15,7 @@
     "react-dom": "^16.13.0",
     "react-particles-js": "^2.7.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "react-select": "^3.0.8",
     "react-star-rating-component": "^1.4.1",
     "react-star-ratings": "^2.3.0",
